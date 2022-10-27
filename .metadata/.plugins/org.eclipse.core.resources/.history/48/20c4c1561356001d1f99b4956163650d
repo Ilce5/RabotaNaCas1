@@ -1,0 +1,14 @@
+package Paket2;
+
+public class Vezbi {
+
+	public static void main(String[] args) {
+		String unit = "степен";
+		String value1 = "2.5";
+		double temp = Double.parseDouble(value1);
+		
+		System.out.println("Температурата изнесува " + (int)(temp*10) +
+				" " + unit + ".");
+		
+	}
+}

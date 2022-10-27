@@ -1,0 +1,17 @@
+package Paket2;
+
+public class Vezbi {
+
+	public static void main(String[] args) {
+		double a = 0.2;
+		double b = 0.3;
+		String name = "Правоаголник";
+		String value1 = "Плоштина";
+		int index = 2222;
+		
+		System.out.println(name + " има страни a = " +
+		a*100 + " и b = " + b*10 + "." +
+				value1 + "та изнесува " + (a*100) * (b*10) + "cm.");
+		
+	}
+}
