@@ -1,0 +1,23 @@
+package Paket2;
+
+public class Vezbi {
+
+	public static void main(String[] args) {
+		String article1 = "чоколадо";
+		String price1 = "50";
+		String quantity = "5";
+		String article2 = "сок";
+		String price2 = "35";
+		String unit = "денар";
+		int price1int = Integer.parseInt(price1);
+		int price2int = Integer.parseInt(price2);
+		
+		System.out.println("Сметка: " +
+		"\nЕдно " + article1 + "-" + price1int + unit + "и." + 
+		"\n" + price1 + " x 5 = " + price1int*5 +
+		"\nЕден " + article2 + "-" + price2int + unit + "и." + 
+		"\n" + price2 + " x 5 = " + price2int*5 +
+		"\nВкупна цена: " + ((price1int*5) + (price2int*5)));
+		
+	}
+}

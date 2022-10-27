@@ -1,0 +1,13 @@
+package Paket5;
+
+public class PettaVezba {
+
+	public static void main(String[] args) {
+		String unit = "степен";
+		String value = "2.5";
+		double stepeni = Double.parseDouble(value) * 10;
+		
+		System.out.println("Температурата изнесува " + stepeni + unit + "и.");
+		
+	}
+}

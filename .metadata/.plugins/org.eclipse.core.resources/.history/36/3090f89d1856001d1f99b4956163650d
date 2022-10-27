@@ -1,0 +1,12 @@
+package Paket6;
+
+public class SestaVezba {
+
+	public static void main(String[] args) {
+		String firstString = "Hello";
+		String secondString = "World";
+		
+		System.out.println(firstString + " " + secondString);
+		
+	}
+}
